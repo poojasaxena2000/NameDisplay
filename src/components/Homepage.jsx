@@ -49,13 +49,14 @@ function Homepage() {
             Submit
           </button>
         </form>
-        {fullName && (
-          <div className="mt-4 p-4 bg-green-100 text-green-700 rounded-lg">
-            Full Name: {fullName}
-          </div>
-        )}
+
+        {/* Display 'Full Name Display' on initial render and update with user input */}
+        <div className="mt-4 p-4 bg-gray-100 text-gray-700 rounded-lg">
+          Full Name Display: {fullName || "N/A"}
+        </div>
       </div>
     </div>
   );
 }
-export default  Homepage
+
+export default Homepage;
