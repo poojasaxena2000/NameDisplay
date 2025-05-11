@@ -21,7 +21,7 @@ function Homepage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg w-80">
-        <h1 className="text-xl font-bold mb-4">Enter Your Full Name</h1>
+        <h1 className="text-xl font-bold mb-4">Full Display Name</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
